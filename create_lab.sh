@@ -1,7 +1,7 @@
 #!/bin/bash
 
 docker build -t examen_lohp_5_gen .
-docker run -d --name examen_lohp_5_gen -it test_lohp_5 /bin/bash
+docker run -d --name examen_lohp_5_gen -it examen_lohp_5_gen /bin/bash
 docker exec -it examen_lohp_5_gen /etc/init.d/apache2 restart
 
 
