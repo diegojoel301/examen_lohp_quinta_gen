@@ -17,8 +17,8 @@ WORKDIR /var/www/html/
 
 COPY . /var/www/html
 
-COPY php.ini /etc/php/8.2/.
-COPY php.ini /etc/php/8.2/apache2/.
+COPY php.ini /etc/php/8.3/.
+COPY php.ini /etc/php/8.3/apache2/.
 
 EXPOSE 80
 CMD apachectl -D FOREGROUND
